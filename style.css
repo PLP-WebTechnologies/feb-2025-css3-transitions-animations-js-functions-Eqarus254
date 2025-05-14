@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.5s, color 0.5s;
+  }
+  
+  /* Themes */
+  .light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .dark {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  /* Button Styles */
+  .animated-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Animation Keyframes */
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  /* Animation Class */
+  .pulse {
+    animation: pulse 0.5s ease-in-out;
+  }
+  
+  /* Box Style */
+  #box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 20px;
+  }
+  
+  /* Controls Section */
+  #controls {
+    margin-top: 20px;
+  }
+  
+  select, button {
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+  
